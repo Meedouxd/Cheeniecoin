@@ -8,7 +8,7 @@ import java.awt.*;
 
 public class Cheenie {
     public static void main(String args[]) throws LoginException {
-        JDA jda = new JDABuilder(AccountType.BOT).setToken("ODAxMjEwNTk0NzY1NTcwMTA5.YAdXgw.FmCG8qYa-gk7ezN1y08BZuvZKFQ").build();
+        JDA jda = new JDABuilder(AccountType.BOT).setToken("token_here").build();
         Wallet chw = new Wallet();
         System.out.println(chw.createWallet());
         JFrame frame = new JFrame();
